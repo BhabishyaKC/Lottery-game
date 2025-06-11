@@ -48,7 +48,7 @@ const LotteryGame = () => {
   };
 
   return (
-    <div className="h-screen w-full flex flex-col justify-center items-center bg-gradient-to-br from-purple-700 via-pink-500 to-red-400 text-white font-sans space-y-6 px-4">
+    <div className="h-screen w-full flex flex-col justify-center items-center bg-[#0b6c61] text-white font-sans space-y-6 px-4">
 
 
       <div className="text-2xl font-bold text-center drop-shadow-lg">
@@ -90,7 +90,7 @@ const LotteryGame = () => {
               width={60}
               height={100}
               alt="Lever"
-              className="rotate-90 cursor-pointer"
+              className="rotate-90 cursor-pointer "
             />
           </button>
         </div>
